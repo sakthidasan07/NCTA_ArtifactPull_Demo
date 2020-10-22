@@ -8,7 +8,7 @@ echo "*************Finished writing parameter values to log*************"
 if [ "${ArtifactID:?}" ]
 then
 echo "Sucessfull"
-else 
+elif 
 echo "Unsucessfull" 
 fi
 echo "**************Script execution completed***************************"
