@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xe
 Artifact_ID="$ArtifactID"
 Artifact_Type="$Artifact_Type"
 echo "Writing parameter values"
