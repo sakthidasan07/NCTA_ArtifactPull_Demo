@@ -8,11 +8,12 @@ echo "*************Finished writing parameter values to log*************"
 if [ ! -n "$Artifact_ID" ]
 then
         echo "Error \$Artifact_ID not set or NULL"
+elif 
+echo "**************Script execution completed***************************"       
 fi
 #if [ -z "$Artifact_ID" ]
 #then
 #echo "Empty Artifact ID. Please enter value and retry"
 #exit 1
 #else
-echo "**************Script execution completed***************************"
 #fi
