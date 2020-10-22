@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 Artifact_ID="$ArtifactID"
 Artifact_Type="$Artifact_Type"
 echo "*************Writing parameter values*****************************"
@@ -8,6 +7,6 @@ echo "*************Finished writing parameter values to log*************"
 if [ -z "$ArtifactID" ]
 then
 echo "Error \$Artifact_ID not set or NULL"
-elif 
-echo "**************Script execution completed***************************"       
+exit 1;
 fi
+echo "**************Script execution completed***************************"
