@@ -5,8 +5,8 @@ echo "*************Writing parameter values*****************************"
 echo "Artifact parameter value passed is, $Artifact_ID"
 echo "Artifact type value passed is, $Artifact_Type"
 echo "*************Finished writing parameter values to log*************"
-if [ -z "$Artifact_ID" ] ; then
-        echo "String null"
+if [ ! -n "$var" ] ; then
+        echo "Error \$var not set or NULL"
 fi
 #if [ -z "$Artifact_ID" ]
 #then
