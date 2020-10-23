@@ -9,8 +9,7 @@ if [[ $2 == "Release" ]];
 then
 echo "Sucessfull"
 echo "**************Script execution completed***************************"
-elif 
+else 
 echo "Script execution failed. Please check input parameter"
-exit 0;
 echo "*******************************************************************"
 fi
