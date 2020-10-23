@@ -12,7 +12,7 @@ echo "*************Finished writing parameter values to log*************"
 --else 
 --echo "Script execution failed. Please check input parameter"
 --echo "*******************************************************************"
-fi
+--fi
 if [ $1 == $2 ] 
 then 
     echo "YES"
