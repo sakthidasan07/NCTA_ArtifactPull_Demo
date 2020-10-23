@@ -13,7 +13,7 @@ echo "*************Finished writing parameter values to log*************"
 --echo "Script execution failed. Please check input parameter"
 --echo "*******************************************************************"
 fi
-if [ $1 == $va2 ] 
+if [ $1 == $2 ] 
 then 
     echo "YES"
 else 
