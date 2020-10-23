@@ -1,14 +1,17 @@
 #!/bin/bash
-echo "*************Writing parameter values*****************************"
 Artifact_ID=$1
 Artifact_Type=$2
-echo "Artifact parameter value passed is, $Artifact_ID"
-echo "Artifact type value passed is, $Artifact_Type"
-echo "*************Finished writing parameter values to log*************"
+now =$(date)
+echo "*************$now: Writing parameter values*****************************"
+echo "$now: Artifact parameter value passed is, $Artifact_ID"
+echo "$now: Artifact type value passed is, $Artifact_Type"
+echo "*************$now: Finished writing parameter values*************"
 if [ $2 == "Release" ]
 then
-    echo "Sucess"
+    echo "$now: Sucess"
+    echo "**************************************************************"
 else
-    echo "Failed"
+    echo "$now: Failed"
+    echo "**************************************************************"
     exit 1;
 fi
