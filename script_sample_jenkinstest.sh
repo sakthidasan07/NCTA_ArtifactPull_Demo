@@ -1,7 +1,7 @@
 #!/bin/bash
 Artifact_ID=$1
 Artifact_Type=$2
-now =$(date)
+now=$(date)
 echo "*************$now: Writing parameter values*****************************"
 echo "$now: Artifact parameter value passed is, $Artifact_ID"
 echo "$now: Artifact type value passed is, $Artifact_Type"
